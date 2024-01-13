@@ -1,11 +1,10 @@
 body {
   font-family: "League Spartan", sans-serif;
+  margin: 0px;
 }
 
 .container {
   background-color: #182029;
-  width: 90%;
-  max-width: 600px;
 }
 
 .header {
@@ -14,33 +13,75 @@ body {
   height: 100px;
 }
 
-.explanation {
-  width: 40%;
-  height: 250px;
-  margin-left: 30px;
-  text-align: center;
-  font-size: 15px;
+.header-text {
   color: white;
-  border-right: 30px solid transparent;
-}
-
-.right-block {
-  border-left: 3px solid #ee5961;
-  border-bottom: 3px solid #ee5961;
-  width: 50%;
-  height: 300px;
+  font-size: 80px;
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
 }
 
 .upper-area {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.top-block {
+  border-right: 3px solid #ee5961;
+  border-bottom: 3px solid #ee5961;
+  width: 30%;
+  height: 440px;
+}
+
+#piechart {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  margin-left: 5.5rem;
+}
+
+.video {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.explanation {
+  color: white;
+  font-size: 20px;
+  width: 22%;
+  text-align: center;
+  margin: 0px;
+  padding-top: 25px;
+  padding-right: 90px;
+}
+
+.bottom-area {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+}
+
+.big-circle {
+  background-color: #ee5961;
+  width: 20rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-left: 250px;
+  position: relative;
+}
+
+.circle-text-big {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 6rem;
+  margin-left: 0.5rem;
 }
 
 .small-circle {
   background-color: white;
-  width: 5rem;
+  width: 10rem;
   aspect-ratio: 1;
   border-radius: 50%;
   position: absolute;
@@ -48,71 +89,39 @@ body {
   left: -25%;
 }
 
-.big-circle {
-  background-color: #ee5961;
-  width: 10rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  margin-right: 45px;
-  position: relative;
-}
-
-.circle-text-big {
-  color: white;
-  width: 60%;
-  text-align: center;
-  margin-left: 2.1rem;
-  margin-top: 3rem;
-  font-size: 1.3rem;
-}
-
 .circle-text-small {
   color: #ee5961;
-  width: 100%;
+  font-size: 1.8rem;
   text-align: center;
-  margin-top: 2rem;
-  font-size: 1rem;
+  margin-top: 4.2rem;
 }
 
-.left-block {
-  border-right: 3px solid #ee5961;
+.bottom-block {
+  border-left: 3px solid #ee5961;
   border-top: 3px solid #ee5961;
-  border-bottom: 3px solid #ee5961;
-  width: 50%;
-  height: 300px;
+  border-right: 3px solid #ee5961;
+  width: 30%;
+  height: 440px;
+  margin-right: 200px;
 }
 
-.middle-area {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
+#barchart {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  margin-top: 3.5rem;
 }
 
 .source-block {
   border-top: 3px solid #ee5961;
-  border-right: 3px solid #ee5961;
-  width: 30%;
+  border-left: 3px solid #ee5961;
+  width: 10%;
   height: 6rem;
-  margin-top: 140px;
+  margin-top: 342px;
 }
 
 .source-text {
   color: white;
-  width: 70%;
-  font-size: 17px;
+  font-size: 25px;
   text-align: center;
-  margin-top: 33px;
-  margin-left: 25px;
-}
-
-.video {
-  margin-right: 40px;
-  margin-bottom: 30px;
-}
-
-.bottom-area {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
